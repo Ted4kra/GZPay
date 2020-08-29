@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "10.0"
   spec.ios.deployment_target = "10.0"
   spec.source       = { :git => "https://github.com/Ted4kra/GZPay.git", :tag => spec.version }
-  spec.ios.vendored_frameworks   = "Carthage/Build/iOS/*.framework"
+  spec.ios.vendored_frameworks   = "Frameworks/*.framework"
   spec.swift_versions = "4.2"
   spec.dependency "AFNetworking"
   spec.dependency "PromiseKit", "~> 6.8"
