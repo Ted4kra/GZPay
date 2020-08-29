@@ -1,0 +1,6 @@
+framework module GZPay {
+  umbrella header "GZPay.h"
+
+  export *
+  module * { export * }
+}
