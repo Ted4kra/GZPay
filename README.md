@@ -13,11 +13,11 @@ source 'https://cdn.cocoapods.org/'
 target 'YourAwesomeProj' do
 # 必须使用framework
   use_frameworks!
-  pod 'GZPay', '~> 0.1.0'
+  pod 'GZPay', '0.1.1'
 end
 ```
 
-## 最新版本是 $\color{#FF3030}{0.1.0}$
+## 最新版本是 $\color{#FF3030}{0.1.1}$
 
 * 如果没有特殊情况，请尽量使用最新版本！
 
@@ -30,8 +30,12 @@ end
 	> ld: could not reparse object file in bitcode bundle: 'Invalid bitcode version (Producer: '1200.0.22.7.0_0' Reader: '1103.0.32.62_0')', using libLTO version 'LLVM version 11.0.3, (clang-1103.0.32.62)' for architecture armv7
 	> clang: error: linker command failed with exit code 1 (use -v to see invocation)
 	
-	就把Bitcode关了吧...我也遇到了
+	就把Bitcode关了
 	
+# 更新内容
+
+* 电信支付不支持小数
+
 # 使用方式
 
 
@@ -83,9 +87,9 @@ end
 
 
 
-# The newest version is 0.1.0
+# The newest version is 0.1.1
 
-# Use 0.1.0 please.
+# Use 0.1.1 please.
 # The 0.0.1 just support iOS 13 !!!
 
 Use `pod trunk info GZPay` check the newest version.
