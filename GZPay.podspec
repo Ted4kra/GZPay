@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GZPay"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "果子Pay支付SDK。"
   spec.homepage     = "https://github.com/Ted4kra/GZPay"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
