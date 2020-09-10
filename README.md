@@ -13,11 +13,11 @@ source 'https://cdn.cocoapods.org/'
 target 'YourAwesomeProj' do
 # 必须使用framework
   use_frameworks!
-  pod 'GZPay', '0.1.1'
+  pod 'GZPay', '0.2.0'
 end
 ```
 
-## 最新版本是 $\color{#FF3030}{0.1.1}$
+## 最新版本是 **0.2.0**
 
 * 如果没有特殊情况，请尽量使用最新版本！
 
@@ -34,7 +34,8 @@ end
 	
 # 更新内容
 
-* 电信支付不支持小数
+* 0.1.1 电信支付不支持小数 
+* 0.2.0 支持App京东直充微信
 
 # 使用方式
 
@@ -87,9 +88,9 @@ end
 
 
 
-# The newest version is 0.1.1
+# The newest version is 0.2.0
 
-# Use 0.1.1 please.
+# Use 0.2.0 please.
 # The 0.0.1 just support iOS 13 !!!
 
 Use `pod trunk info GZPay` check the newest version.
