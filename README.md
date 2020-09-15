@@ -5,7 +5,7 @@ iOS端使用的framework。
 
 # 集成方式
 
-```
+```ruby
 # 使用CDN方式
 source 'https://cdn.cocoapods.org/'
 # platform :ios, '9.0'
@@ -13,13 +13,15 @@ source 'https://cdn.cocoapods.org/'
 target 'YourAwesomeProj' do
 # 必须使用framework
   use_frameworks!
-  pod 'GZPay', '0.2.0'
+  pod 'GZPay', '0.2.1'
 end
 ```
 
-## 最新版本是 **0.2.0**
+## 最新版本是 **0.2.1**
 
-* 如果没有特殊情况，请尽量使用最新版本！
+* 如果没有特殊情况，请尽量使用最新版
+
+* 本！
 
 * 如果指定版本号后，安装的还是旧版本，请执行以下命令查看一下
 
@@ -36,6 +38,7 @@ end
 
 * 0.1.1 电信支付不支持小数 
 * 0.2.0 支持App京东直充微信
+* 0.2.1 修复可能会先进catch，再正常返回URL的bug
 
 # 使用方式
 
@@ -88,9 +91,9 @@ end
 
 
 
-# The newest version is 0.2.0
+# The newest version is 0.2.1
 
-# Use 0.2.0 please.
+# Use 0.2.1 please.
 # The 0.0.1 just support iOS 13 !!!
 
 Use `pod trunk info GZPay` check the newest version.
